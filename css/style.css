@@ -4,6 +4,11 @@ body{
 header {
 	background-color: gray;
 	padding: 20px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 1;
 }
 .logo {
 	font-size: 32px;
@@ -14,8 +19,52 @@ header {
 nav {
 	display: inline-block;
 	vertical-align: middle;
+
 }
 li {
 	display: inline-block;
 	margin-left: 20px;
+}
+.section-1 {
+	margin-top: 72px;
+}
+
+/*section-2*/
+
+.relative {
+
+}
+.relative {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	background-color: red;
+}
+.absolute {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	
+}
+.absolute.orange {
+/*	position: absolute;*/
+	/*width: 100px;
+	height: 100px;*/
+	top: 0;
+	right: 0;
+	background-color: orange;
+}
+.absolute.green {
+/*	position: absolute;*/
+	/*width: 100px;
+	height: 100px;*/
+	left: 0px;
+	top: 0px;
+	background-color: green;
+}
+.absolute.salmon {
+/*	position: absolute;*/
+	left: 0px;
+	bottom: 0px;
+	background-color: salmon;
 }
